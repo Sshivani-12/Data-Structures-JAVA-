@@ -1,2 +1,2 @@
 ## Data-Structures-JAVA
-My Collection Data-Structures in JAVA language.
+My Collection of Data-Structures in JAVA language.
