@@ -5,15 +5,21 @@ int length;
 
 public static void main(String []args)
 {
-int[] inputArr={12,21,43,121};
+int[] inputArr={12,121,9,21,43};
 MergeSort ms=new MergeSort();
+
+//calling function
 ms.sort(inputArr);
 
+//output
 for(int i:inputArr)
 {
 	System.out.println(i+"");
 }
+
 }	
+
+
 public void sort(int inputArr[])
 {
 	this.array=inputArr;
@@ -21,6 +27,7 @@ public void sort(int inputArr[])
 	this.tempMergeArr=new int[length];
 	divideArray(0,length-1);
 }
+
 public void divideArray(int lowerIndex,int higherIndex)
 {
 	if(lowerIndex<higherIndex){
