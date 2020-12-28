@@ -18,13 +18,13 @@ public  class ArrayListt{
 			
 		}
 		//removing 
-			a.remove(0);
-				System.out.println("final arraylist removing");
-	for(int i=0;i<a.size();i++)
+		a.remove(0);
+		System.out.println("final arraylist removing");
+		for(int i=0;i<a.size();i++)
 		{
 		System.out.println(+a.get(i));
-			
 		}
+		
 		
 	}
 }
