@@ -1,4 +1,5 @@
 //each element is inserted at correct location.
+
 class InsertionSort
     {
          public static void main(String [] args)
@@ -17,11 +18,18 @@ class InsertionSort
                  {
                     x[i] = s.nextInt();
                  }
-/*				 
-	2	40 50 21 4 7
-		j  i
+/*	
+	0	1	2	3	4			
+	40	2 	50 	21	4 7
+	j  	i,
+		
+			temp=50
+		
+		
+		
 		   
 */	
+
 			for(int i=1;i<n;i++)
 			{
 				int j=i-1;

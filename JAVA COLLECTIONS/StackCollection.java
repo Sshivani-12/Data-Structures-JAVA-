@@ -9,6 +9,7 @@ public  class StackCollection{
 		a.add(12);
 		a.add(12);
 		
+		System.out.println(a);
 		
 		System.out.println(a.pop());
 		System.out.println(a.peek());
